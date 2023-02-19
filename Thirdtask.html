@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        main {
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0)
+        }
+    </style>
+    <header>
+        <h1>Quiz Website</h1>
+    </header>
+    <main>
+        <h2>Test your knowledge!</h2>
+        <form id="quiz-form">
+            <ol>
+                <li>
+                    <h3>Which is Biggest Country In World?</h3>
+                    <div>
+                        <input type="radio" name="question1" value="A" id="q1a">
+                        <label for="q1a">A. USA</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question1" value="B" id="q1b">
+                        <label for="q1b">B. Russia</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question1" value="C" id="q1c">
+                        <label for="q1c">C. India</label>
+                    </div>
+                </li>
+                <li>
+                    <h3>Which Is The biggest River In World?</h3>
+                    <div>
+                        <input type="radio" name="question2" value="A" id="q2a">
+                        <label for="q2a">A. Ganga </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question2" value="B" id="q2b">
+                        <label for="q2b">B. Nile</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question2" value="C" id="q2c">
+                        <label for="q2c">C. Amazon</label>
+                    </div>
+                </li>
+                <li>
+                    <h3>Which is largest contient in the world?</h3>
+                    <div>
+                        <input type="radio" name="question3" value="A" id="q3a">
+                        <label for="q3a">A. Africa</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question3" value="B" id="q3b">
+                        <label for="q3b">B. Asia</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="question3" value="C" id="q3c">
+                        <label for="q3c">C. Europe</label>
+                    </div>
+                </li>
+            </ol>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
